@@ -11,7 +11,6 @@ private:
 
 	void RobotInit()
 	{
-
 		CommandBase::init();
 		chooser = new SendableChooser();
 		chooser->AddDefault("Default Auto", new ExampleCommand());
